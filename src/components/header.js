@@ -1,10 +1,11 @@
 import React from "react";
+import Navegate from "./navigatio";
 
 class Header extends React.Component{
     render(){
         return(
-        <h1>this is first lab in react</h1>
-        )
+            <Navegate />
+            )
     }
 }
 export default Header;
