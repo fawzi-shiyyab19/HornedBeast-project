@@ -1,2 +1,5 @@
-this is lab2 in react and know how to make filter and counter in react 
-the assigment take 5.30 hour
+## Number and feuture name : Display a Modal
+## Estimate of time needed to complete: 1 hour
+## Start time: 5pm
+## Finish time: 6.07
+## Actual time needed to complete:less one hour
