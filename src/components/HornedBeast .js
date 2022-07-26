@@ -1,7 +1,7 @@
+
 import React from "react";
 import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button';
-
+import SelectedBeast from "./SelectedBeast";
 
 class HornedBeast extends React.Component {
     constructor(props) {
@@ -23,6 +23,7 @@ class HornedBeast extends React.Component {
                 <Card.Body>
                 <Card.Title>{this.props.title} ❤️ {this.state.count}</Card.Title>
                 <Card.Text>{this.props.description}</Card.Text>
+                <SelectedBeast  src={this.props.imgUrl} description={this.props.description}  />
                 </Card.Body>
             </Card>
         );
