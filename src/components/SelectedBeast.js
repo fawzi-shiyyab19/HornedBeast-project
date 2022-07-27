@@ -48,7 +48,7 @@ class SelectedBeast extends React.Component {
               onClick={this.props.handleFavorite}
             />
             <p style={{ textAlign: "center" }}>{this.props.description}</p>
-            
+            <p> ❤ : {this.props.favorite}</p>
           </Modal.Body>
           <Modal.Footer>
             <Button variant="primary" onClick={this.handleClose}>
@@ -61,3 +61,6 @@ class SelectedBeast extends React.Component {
   }
 }
 export default SelectedBeast;
+
+
+
