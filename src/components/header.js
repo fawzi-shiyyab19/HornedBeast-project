@@ -1,5 +1,5 @@
 import React from "react";
-import Navegate from "./navigatio";
+import Navegate from "./nav-bar";
 
 class Header extends React.Component{
     render(){
